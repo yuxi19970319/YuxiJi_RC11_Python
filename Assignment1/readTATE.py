@@ -66,7 +66,7 @@ with open("D:\\assignment\python\\file\YuxiJi_RC11_Python\Assignment1\csvFiles\\
             artPieces.append(artPiece)
 
 for art in artPieces:
-    if "Alphonse" in art.artist:
+    if "Millais" in art.artist:
         art.getImageFile()
 # Read in the rows of the artwork_data.csv file into a list of ArtTate objects
 
